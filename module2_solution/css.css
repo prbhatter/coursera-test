@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("wp4974509.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 150%;
+    overflow: auto;
+}
+
+section{
+    background-color: rgb(211, 168, 168);
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    height: 155px;
+}
+
+h1{
+    color: rgb(240, 163, 20);
+    font-size: 175%;
+    text-align: center;
+}
+
+h3{
+    font-size: 125%;
+    width: fit-content;
+    border: 1px solid black;
+    float: right;
+}
+
+#s1{
+    background-color: rgb(21, 95, 168);
+}
+
+#s2{
+    background-color: rgb(35, 153, 80);
+    
+}
+
+#s3{
+    background-color: rgb(144, 155, 43);
+}
+
+p{
+    clear: both;            
+}
+
+@media (min-width: 992px){
+
+    .sect{
+        width: 31.33%;
+        margin: 1%;
+    }
+
+    h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .sect{
+        width: 47%;
+        margin: 1%;
+    }
+
+    h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px){
+    .sect{
+        width: 96%;
+        margin: 2%;
+    }
+
+    h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
